@@ -1,0 +1,71 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common font body */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;;
+}
+/* Header style */
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    margin-right: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -------------------------------
+         1st step style
+----------------------------------
+*/
+.main-title{
+    margin-bottom: 100px;
+ }
+section{
+    display:flex ;
+    align-items: center;
+    padding-top: 50px;
+}
+.half-width{
+    width: auto;
+    padding-left: auto;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border-radius: 41px;
+    padding: 10px 24px;
+}
+.top-container{
+    background-color: #FFFFFF;
+}
+hr{
+    border: 5px solid bisque;
+}
+
+/* ------------------------
+      2nd step style 
+----------------------------
+*/
+.images-styles2, img{
+    width: 300px;
+    height: 256px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.fa-star.filled{
+color: #FB8200;
+}
+ /* footer */
+ footer p{
+     text-align: center;
+     color: azure;
+}
+footer{
+     background-color: black;
+     padding: 5px;
+}
