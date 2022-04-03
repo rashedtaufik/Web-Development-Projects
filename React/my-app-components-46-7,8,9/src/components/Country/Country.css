@@ -1,0 +1,15 @@
+.country{
+    background-color: antiquewhite;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 30px;
+
+}
+.country-name{
+    color: red;
+}
+
+.country img{
+    width: 200px;
+}
